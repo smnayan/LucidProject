@@ -225,6 +225,12 @@ a, a:hover{
 	line-height: 24px;
 	font-weight: 600;
 }
+.about-device .title .list-pera img{
+	width: 15px;
+	height: 17px;
+	margin-right: 10px;
+}
+
 .prostokat-section{
 	width: 100%;
 	background: #f2f2f2;
