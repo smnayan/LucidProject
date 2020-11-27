@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif; 
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/* Reen Code start here */
+
+/* Header Section Code*/
+.header-section{
+	width: 100%;
+	background: url("../img/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .top-header{
+	width: 100%;
+	margin-top: 30px;
+}
+.header-section .top-header .bg-light{
+	background: transparent !important;
+}
+.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	background: url("../img/dot.png") center bottom no-repeat;
+}
+.header-section .top-header .bg-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 15px;
+}
+.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+	color: #fff;
+	background: url("../img/dot.png") center bottom no-repeat;
+}
+.header-section .banner-section{
+	width: 100%;
+	padding: 80px 0 0px; 
+}
+.header-section .banner-section h4{
+	color: #0d4a6f;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 24px;
+	letter-spacing: 2px;
+}
+.header-section .banner-section h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.header-section .banner-section p{
+	color: #808081;
+	font-size: 16px;
+	margin-bottom: 25px;
+	line-height: 24px;
+}
+.inner-btn{
+	width: 100%;
+	margin-top: 40px;
+}
+.inner-btn .btn-primary{
+	text-transform: uppercase;
+	margin-left: 8px;
+	padding: 15px 30px;
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #fff;
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	transition: 1s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	background: transparent;
+	color: #fff;
+}
+.inner-btn .btn-secondary{
+	text-transform: uppercase;
+	margin-left: 8px;
+	padding: 15px 30px;
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #fff;
+	border: 1px solid #008ed6;
+	background: transparent;
+	transition: 1s;
+}
+.inner-btn .btn-secondary:hover, .inner-btn .btn-secondary:focus{
+	background: #008ed6;
+	color: #fff;
+}
+
+/*title css for all*/
+.title h4{
+	color: #0d4a6f;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 24px;
+	letter-spacing: 2px;
+}
+.title h1{
+	color: #000;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+
+/*feature section css*/
+.feature-section{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #dddddd;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.05); 
+}
+.feature-section .title{
+	margin: 80px 0;
+}
+.feature-section .title h4{
+	color: #7db8e4;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	line-height: 14px;
+	letter-spacing: 1px;
+}
+.feature-section .title h1{
+	color: #000;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.feature-section .inner-feature{
+	width: 100%;
+	padding: 10px 10px 20px 10px;
+	margin-bottom: 40px;
+}
+.feature-section .inner-feature .icon-box{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.feature-section .inner-feature .icon-box .fa{
+	border-radius: 50%; 
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border: 1px solid #e0e0e0;
+	font-size: 30px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05); 
+	color: #7db8e4;
+}
+.feature-section .inner-feature .des{
+	width: 100%;
+}
+.feature-section .inner-feature .des h4{
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+.feature-section .inner-feature .des p{
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+.about-device{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-device .title{
+	width: 100%;
+	margin-top: 30px;
+}
+.about-device .title h4{
+	color: #7db8e4;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.about-device .title h1{
+	color: #000;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.about-device .title p{
+	color: #999;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 24px;
+	letter-spacing: 0.8px;
+}
+.about-device .title .list-pera{
+	margin-right: 9px;
+	color: #000;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.prostokat-section{
+	width: 100%;
+	background: #f2f2f2;
+}
+.prostokat-section .title{
+	width: 100%;
+	padding: 110px 80px;
+}
+.prostokat-section .title h4{
+	color: #7db8e4;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.prostokat-section .title h1{
+	color: #000;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.prostokat-section .title p{
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+.prostokat-section .img{
+	margin-top: 40px;
+}
