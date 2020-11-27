@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
 	<title>Lucid | Home</title>
 
 	<!-- Google Fonts Linking -->
@@ -155,11 +158,10 @@
 						<img src="img/dot.png" alt="">
 						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. <br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt <br> auctor a ornare odio. Sed non  mauris vitae erat consequat <br> auctor eu in elit. </p>
 						<p class="list-pera">
-							<img src="img/Cup.png" alt="">
-							 &nbsp;Awesome design <br>
-							<img src="img/Mouse.png" alt=""> &nbsp;&nbsp;Fully responsive <br>
-							<img src="img/Speedometer.png" alt=""> &nbsp;Retina ready <br>
-							<img src="img/Energy.png" alt=""> &nbsp;&nbsp;Tons of features and easy to use
+							<img src="img/Cup.png" alt="">Awesome design <br>
+							<img src="img/Mouse.png" alt="">Fully responsive <br>
+							<img src="img/Speedometer.png" alt="">Retina ready <br>
+							<img src="img/Energy.png" alt="">Tons of features and easy to use
 						</p>
 					</div>
 
@@ -188,9 +190,34 @@
 		</div>
 	</section>
 
+	
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    	$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:20,
+		    nav:false,
+		    autoplay:true,
+		    autoplayTimeout:4000,
+		    mouseDrag:true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:2
+		        }
+		    }
+		})
+    </script>
 
 </body>
 </html>
