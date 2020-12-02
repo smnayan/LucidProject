@@ -505,6 +505,9 @@ a, a:hover{
 	margin-bottom: -90px;
 	margin-top: 22px;
 }
+.main-form .form-group input[type=text], .main-form .form-group input[type=email], .main-form .form-group textarea{
+	color: #008ed6;
+}
 .main-form .form-control{
 	background: transparent;
 	border: 1px solid #444348;
