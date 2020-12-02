@@ -47,7 +47,7 @@ a, a:hover{
 	padding: 80px 0 0px; 
 }
 .header-section .banner-section h4{
-	color: #0d4a6f;
+	color: #008ed6;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 600;
@@ -105,7 +105,7 @@ a, a:hover{
 
 /*title css for all*/
 .title h4{
-	color: #0d4a6f;
+	color: #008ed6;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 600;
@@ -129,15 +129,14 @@ a, a:hover{
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05); 
 }
 .feature-section .title{
-	margin: 80px 0;
+	margin: 80px 0 50px;
 }
 .feature-section .title h4{
-	color: #7db8e4;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 400;
+	font-size: 14px;
+	font-weight: 600;
 	margin-bottom: 5px;
-	line-height: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 .feature-section .title h1{
@@ -194,7 +193,7 @@ a, a:hover{
 	margin-top: 30px;
 }
 .about-device .title h4{
-	color: #7db8e4;
+	color: #008ed6;
 	font-size: 14px;
 	font-weight: 600;
 	margin-bottom: 5px;
@@ -237,10 +236,10 @@ a, a:hover{
 }
 .prostokat-section .title{
 	width: 100%;
-	padding: 110px 80px;
+	padding: 110px 0px 70px;
 }
 .prostokat-section .title h4{
-	color: #7db8e4;
+	color: #008ed6;
 	font-size: 14px;
 	font-weight: 600;
 	margin-bottom: 5px;
@@ -265,4 +264,297 @@ a, a:hover{
 }
 .prostokat-section .img{
 	margin-top: 40px;
+}
+.testimonial{
+	width: 100%;
+	background: url("../img/Warstwa 8.png") center no-repeat;
+	background-size: cover;
+}
+.testimonial .title{
+	width: 100%;
+	margin: 80px 0;
+}
+.testimonial .title h4{
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.testimonial .title h1{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.testimonial .carousel{
+	margin-bottom: 80px;
+}
+.testimonial .owl-carousel .item .comment p{
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 32px;
+	font-style: italic;
+}
+.testimonial .owl-carousel .item .media img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+.testimonial .owl-carousel .item .media{
+	margin-top: 30px;
+}
+.testimonial .owl-carousel .item .media .media-body{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.testimonial .owl-carousel .item .media .media-body h5{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.testimonial .owl-carousel .item .media .media-body p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.testimonial .owl-theme .owl-dots .owl-dot {
+    margin-top: 70px;
+}
+
+
+.like{
+	width: 100%;
+	background: #000;
+}
+.like .heading{
+	margin-top: 48px;
+}
+.like .heading h1{
+	font-size: 30px;
+	color: #fff;
+}
+.like .heading h1 span{
+	font-size: 30px;
+	color: #999;
+}
+.like .like-btn{
+	margin: 45px 0;
+	float: right;
+}
+.like .like-btn .btn-primary{
+	text-transform: uppercase;
+	margin-left: 8px;
+	padding: 11px 23px;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #999;
+	background: #008ed6;
+	transition: 1s;
+}
+.like .like-btn .btn-primary:hover, .like .like-btn .btn-primary:focus{
+	background: transparent;
+	color: #fff;
+}
+.like .like-btn .btn-secondary{
+	text-transform: uppercase;
+	margin-left: 8px;
+	padding: 11px 23px;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #999;
+	background: transparent;
+	transition: 1s;
+}
+.like .like-btn .btn-secondary:hover, .like .like-btn .btn-secondary:focus{
+	background: #008ed6;
+	color: #fff;
+}
+
+/*Pricing Section */
+.pricing-secton{
+	width: 100%;
+	padding: 60px 0px;
+}
+.pricing-secton .title{
+	margin-bottom: 60px;
+}
+.pricing-secton .title h4{
+	margin-bottom: 10px;
+}
+.pricing-secton .title h1{
+	color: #1a1a1a;
+}
+.pricing-secton .card{
+	transition: 1s;
+}
+.pricing-secton .card-header{
+	background: transparent !important;
+	padding: 0px;
+	transition: 1s;
+}
+.pricing-secton .card-header h2{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 20px 11px;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+.pricing-secton .card .list-group-item{
+	padding: 0px;
+	transition: 1s;
+}
+.pricing-secton .card .card-title{
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.pricing-secton .card .list-group-item h1{
+	padding-bottom: 0px;
+	font-weight: 800;
+	font-size: 42px;
+}
+.pricing-secton .card .card-title sup{;
+	font-size: 24px;
+}
+.pricing-secton .card .list-group-item p{
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #999;
+}
+.pricing-secton .card .card-body{
+	padding: 0px;
+	margin: 20px;
+}
+.pricing-secton .card .card-body .card-text{
+	margin: 25px 0px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+	line-height: 26px;
+}
+.pricing-secton .card .card-body a{
+	color: #008ed6;
+	font-weight: 700;
+}
+.pricing-secton .card .card-body .btn-primary{
+	text-transform: uppercase;
+	margin-left: 8px;
+	font-weight: 900;
+	padding: 11px 23px;
+	font-size: 14px;
+	color: #008ed6;
+	border: 1px solid #999;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05); 
+	background: transparent;
+	margin-top: 10px;
+	transition: 1s;
+
+}
+.pricing-secton .card:hover .card-body .btn-primary, .pricing-secton .card .card-body .btn-primary:focus{
+	background: #008ed6;
+	color: #fff;
+}
+.pricing-secton .card:hover .card-header{
+	color: #008ed6;
+}
+.pricing-secton .card:hover .list-group-item{
+	background: #008ed6;
+	color: #fff;
+}
+.pricing-secton .card:hover .list-group-item p{
+	color: #fff;
+}
+/* Contact Section*/
+.contact-section{
+	width: 100%;
+	background: #ededed;
+	padding: 80px 0 0;
+}
+.contact-section .title h4{
+	margin-bottom: 8px;
+}
+.contact-section .contact-info{
+	margin: 35px 0px;
+}
+.contact-section .contact-info .fa{
+	margin-bottom: 10px;
+	color: #008ed6;
+	font-size: 20px;
+}
+.contact-section .contact-info p{
+	color: #999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.main-form{
+	width: 100%;
+	padding: 60px 60px 30px;
+	background: #15141a;
+	margin-bottom: -90px;
+}
+.main-form .form-control{
+	background: transparent;
+	border: 1px solid #444348;
+	color: #444348;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px;
+	height: auto;
+}
+.main-form .btn-primary{
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 11px 23px;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #008ed6;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05); 
+	background: #008ed6;
+	margin-top: 15px;
+	transition: 1s;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+	background: transparent;
+	color: #008ed6;
+}
+.map{
+	width: 100%;
+}
+/* Footer Section*/
+.footer-section{
+	width: 100%;
+	background: #15141a;
+	padding: 40px 0 20px;
+}
+.footer-section .icon a{
+	color: #444348;
+	margin-left: 6px;
+	margin-right: 20px;
+	font-size: 18px;
+	transition: 1s;
+	line-height: 24px;
+}
+.footer-section .icon a:hover, .footer-section .icon a:focus{
+	color: #008ed6;
+}
+.footer-section .icon p{
+	color: #444348;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-right: 8px;
+	margin-top: 10px;
 }
